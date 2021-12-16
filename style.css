@@ -1,0 +1,137 @@
+body {
+	margin: 0;
+	font-family: 'Readex Pro', sans-serif;
+
+	font-size: 22px;
+	line-height: 1.6;
+	color: #ffffff;
+}
+
+.layer {
+	overflow: hidden;
+	overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+/* Container */
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Intro */
+.intro {
+	width: 100%;
+	height: 100vh;
+
+	background: url("images/intro.jpg") center no-repeat;
+	background-size: cover;
+}
+
+.intro__title {
+	color: #fff;
+	font-size: 90px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.1;
+}
+
+/* Header */
+.header {
+	width: 100%;
+	padding-top: 30px;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+/* Mirage */
+.mirage {
+	position: absolute;
+	top: 350px;
+	left: 500px;
+	width: 220px;
+	height: 200px;
+	/*background-image: url("images/mirage.png");*/
+}
+
+/* Train */
+.train {
+	position: absolute;
+	top: 350px;
+	left: 250px;
+	width: 440px;
+	height: 200px;
+	/*background-image: url("");*/
+}
+
+/* Dust 2 */
+.dust_2 {
+	position: absolute;
+	top: 350px;
+	left: 750px;
+	width: 220px;
+	height: 200px;
+	/*background-image: url("images/dust_2.png");*/
+}
+
+/* Maps settings */
+
+.maps__title {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+.maps {
+	padding: .5vw;
+	font-size: 0px;
+	flex-wrap: warp;
+	flex-direction: column;
+	flex-flow: row warp;
+	display: flex;
+}
+
+.maps:hover img {
+	opacity: 0.5;
+	transition: .8s opacity;
+}
+
+.maps:hover img:hover {
+	opacity: 1;
+	transition: .8s opacity;
+}
+
+/* YxSd */
+.prod {
+	position: absolute;
+	top: 800px;
+	left: 420px;		
+}
+
+/* Easter */
+.easter {
+	position: absolute;
+	top: 450px;
+	left: 780px;
+}
+
+.easter2 {
+	width: 100px;
+	height: 100px;
+}
